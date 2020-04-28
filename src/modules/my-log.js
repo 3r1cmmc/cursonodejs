@@ -1,12 +1,12 @@
-function info(text) {
+const info = text => {
     console.log("INFO:", text);
     return text;
-}
+};
 
-function error(text) {
+const error = text => {
     console.log("ERROR:", text);
     return text;
-}
+};
 
 //module.exports = { info, error }; -- Exportacion global
 
